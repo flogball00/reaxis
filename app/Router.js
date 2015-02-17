@@ -1,17 +1,17 @@
 var React = require('react');
 var Router = require('react-router');
 var { Route, DefaultRoute, RouteHandler, Link } = Router;
-var Home = require('./Home');
-var Portal = require('./Portal');
+var Home = require('./Home/Home');
+var Portal = require('./Portal/Portal');
 var App = require('./App');
-var AddPatient = require('./AddPatient');
-var ViewPatient = require('./ViewPatient');
+var AddPatient = require('./Portal/AddPatient');
+var ViewPatient = require('./Portal/ViewPatient');
 
 var injectTapEventPlugin = require("react-tap-event-plugin");
 injectTapEventPlugin();
 
-require('./App.css');
-require('./App.less');
+require('./css/App.css');
+require('./css/App.less');
 require('../node_modules/bootstrap/dist/css/bootstrap.min.css');
 
 var routes = (
