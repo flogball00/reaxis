@@ -1,0 +1,77 @@
+@import "../node_modules/material-ui/src/less/scaffolding";
+@import "../node_modules/material-ui/src/less/components";
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,500);
+
+//mui overrides
+@primary-1-color: @cyan-500;
+@primary-2-color: @cyan-700;
+@primary-3-color: @cyan-100;
+@accent-1-color: @pink-A200;
+@accent-2-color: @pink-A400;
+@accent-3-color: @pink-A100;
+
+@radio-button-border-color: @grey-700;
+
+
+.mui-toolbar {
+  padding:0px;
+  background-color: @cyan-500;
+}
+
+
+
+.mui-raised-button.mui-is-secondary .mui-raised-button-container  .mui-raised-button-label {
+  color: @light-blue-50;
+}
+
+.row-header {
+  padding-top: 15px;
+  height: 100%;
+  font-size: 20px;
+  font: white;
+}
+
+.menu-bar a{
+  color: @light-blue-50;
+  font-weight: 600;
+}
+
+//global
+h1,h2,h3,h4 {
+  color: @grey-700 !important;
+}
+
+
+//portal css
+
+.portal-container {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+
+.gender-selector {
+  padding-top: 20px;
+}
+
+//.portal .mui-paper > .mui-paper-container {
+//  height: 100%;
+//  width: 100%;
+//}
+.add-patient-form,
+.mui-tab-item-container {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+
+.add-patient-form {
+  padding-bottom: 40px;
+  color: @grey-700;
+}
+
+.add-patient-form .history-report .diagnosis .mui-text-field {
+  width: 100%;
+}
+
+.attachment-button{
+  padding-top: 30px;
+}
